@@ -23,7 +23,7 @@ function SignUp() {
     e.preventDefault();
     setLoading(true);
     await axios
-      .post("https://taxsaarthi.onrender.com/user/signup", {
+      .post("http://localhost:8000/user/signup", {
         name,
         email,
         password,
